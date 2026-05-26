@@ -8,6 +8,7 @@ body {
 #container {
     margin: 200px auto;
     margin-top: 50px;
+    margin-bottom:3px;
     width: 260px;
 
 }
@@ -39,4 +40,31 @@ body {
 
 .blank {
     background-color: white;
+}
+
+.button_row{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+.idle-button{
+    color:white;
+    background-color: white;
+    border: none;
+}
+
+.button{
+    margin:2px;
+    width:30px;
+    height:30px;
+}
+
+h3{
+    color:white;
+    margin:0;
 }
